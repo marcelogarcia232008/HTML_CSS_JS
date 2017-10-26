@@ -1,0 +1,66 @@
+body 
+
+        {
+	          background: url("index.jpg")fixed;
+	
+        }
+
+
+p
+        {
+	          font-size: 19px;
+	          color:green;
+	      }
+
+
+a 
+        {
+            color: white;
+            padding: 50px;
+        }
+
+
+h1
+        {
+
+	          font-size: 48px;
+	          color: white;
+	          position:relative;
+	          
+	      }
+
+h2 
+
+{
+    font-size: 48px;
+    color: white;
+    position:relative;
+}       
+
+ 
+
+#principal 
+              {
+            	  background-color: #0080FF;
+            	  opacity:0.89;
+                padding: 100px;
+                margin-left: 100px;
+                margin-right: 100px;
+               
+
+
+              }
+
+            .html_y_css
+                           {        
+                                margin-bottom: 100px;    
+                           }
+
+               .JavaScript 
+          
+                                 {
+                                   margin-bottom: 100px; 
+
+                                 } 
+
+   

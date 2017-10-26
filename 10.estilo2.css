@@ -1,0 +1,40 @@
+#menuVertical
+{
+	list-style-type: none;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+	background-color: #6fa3ff;
+	padding: 5px 7px;
+	width: 150px;
+	margin: auto;
+
+}
+#menuVerical li 
+{
+background-color: #5f82bf;
+margin: 1px;
+text-align: center;
+border-color: #b5c4df;
+border-width: 1px 5px;
+border-style:  solid double;
+
+}
+#menuVertical a 
+{
+	color: #b5c4df;
+	text-decoration: none;
+	padding: 5px;
+	display: block;
+}
+#menuVertical li:hover a 
+{
+	color: white;
+} 
+
+#menuVertical li:hover 
+
+{
+	position: relative;
+	right: -5px;
+}

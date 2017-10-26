@@ -1,0 +1,170 @@
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Cadenas de texto </title>
+
+
+	
+
+</head>
+<body>
+
+	
+
+ <script>
+
+    
+
+	var dias = ["lunes","martes","miercoles","jueves","viernes","sabado","domingo"]; 
+    var diasSeleccionados	= dias[0]; // dia Seleccionado "lunes"
+    var otroDia =dias[5]; //otro dia  "=" sabado 
+    //document.write(dias);//
+    alert(diasSeleccionados);
+            document.write(`<hr>`);
+                       document.write(`<br>`);
+       // arrays                 
+
+    var array1 = [1,2,3];
+        document.write(array1);
+           document.write(`<br>`);
+ 
+    var array2 = array1.concat (4,5,6);
+        document.write(array2);
+           document.write(`<br>`);
+  
+    var array3 = array1.concat (4,5,6);  
+    document.write(array3);
+           document.write(`<br>`);
+            document.write(`<hr>`);
+
+            
+
+
+  var mensaje = "Hola mundo,soy una cadena de texto";
+  var palabras = mensaje.split (" ");
+  alert (palabras);
+  // palabra = ["hola mundo ,soy una cadena de tecto"]
+
+
+  //NAN
+
+  
+
+// isNAN
+  var numero1 = 0; 
+  var numero2 = 0;
+
+
+
+// BUCLE IF ELSE
+
+  if(isNaN(numero1/numero2))
+
+  	{
+  		alert ("la division no esta definida para los numeros indicados ");
+    }
+
+
+  else 
+
+    {
+
+  	    alert ("la dicision es igual a => " + numero1/numero2);
+
+    } 
+
+
+
+//TO FIXED
+    var numero1 = 4564.34567;
+    nuemro1 = numero1.toFixed(2); // 4564.35
+    nuemro1 = numero1.toFixed(6); // 45.345670
+    nuemro1 = numero1.toFixed(); // 4564
+
+
+// bucle FOR 
+
+    alert(numero1); 
+
+ 
+ var mensaje = "Hola ,estoy dentro de un bucle";
+for (var i = 0; i<5 ; i++) 
+
+
+{
+	alert(mensaje);
+}
+
+
+
+
+   
+
+
+        
+        for (j= 1  ; j<=10  ; j++ ) 
+ 
+             {     
+             	document.write(" <br/> tabla del "  + j + 
+
+             		" <hr/><br/> ")
+
+	               for (i =1  ; i <= 10  ; i++) 
+
+	                                 {
+	               	                   document.write(j + " x " + i + "=" + j*i + " <br> <br> ");
+                                     }
+	               
+
+
+             }
+
+
+       
+
+
+       var cadena = "es un lugar d ela marcha de cuyo nombre no quiero acordarme...";
+       var letras = cadena.split("");
+       var resultado = "";
+       for (i in letras)
+
+       {
+       	        if (letras[i] == 'a') 
+
+       	        {
+       	        	/*break;*/
+       	        	continue;
+
+
+       	        }
+
+                else 
+                {
+                	resultado += letras[i];
+                }      
+
+
+               
+
+
+       }
+
+       alert(resultado);
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</script>
+
+</body>
+</html>

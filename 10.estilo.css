@@ -1,0 +1,38 @@
+#menu
+
+{
+	padding:20;
+	list-style-type: none;
+	font-family: sans-serif;
+	font-size: 16px;
+	font-weight: bold;
+
+}
+#menu li
+{
+	background-color: #af7051;
+	float: left;
+	height: 2.3em;
+	line-height: 2.5em;
+	border-color: #af7051;
+	border-style: solid;
+	border-width: 3px;
+
+}
+
+#menu a 
+{
+	color: #f0d7b5;
+	text-decoration: none;
+	padding: 0 20px;
+	display: block;
+}
+#menu li:hover
+{
+	background-color: #f0d7b5;
+
+}
+#menu li:hover a 
+{
+	color: #af7051;
+}
